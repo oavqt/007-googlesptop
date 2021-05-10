@@ -14,46 +14,73 @@
   <body>
     <div id="page-container">
       <header>
-        <div id="google-logo-container">
-          <img
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="google's logo"
-            id="google-logo"
-          />
-        </div>
-        <form action="" id="search-form">
-          <div id="search-container">
-            <div id="search-icon">
-              <span class="material-icons"> search </span>
+        <div id="logo-search-profile-container">
+          <div id="logo-search-container">
+            <div id="google-logo-container">
+              <img
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="google's logo"
+                id="google-logo"
+              />
             </div>
-            <div id="search-bar-container">
-              <label for="search-bar" class="search">
-                <input type="search" name="" id="search-bar" autofocus />
-              </label>
-            </div>
-            <div id="mic-icon">
-              <span>
-                <a href=""
-                  ><img
-                    id="mic-logo"
-                    src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
-                    alt="google's mic logo" /></a
-              ></span>
-            </div>
+            <form action="" id="search-form">
+              <div id="search-container">
+                <div id="search-icon">
+                  <span class="material-icons"> search </span>
+                </div>
+                <div id="search-bar-container">
+                  <label for="search-bar" class="search">
+                    <input type="search" name="" id="search-bar" autofocus />
+                  </label>
+                </div>
+                <div id="mic-icon">
+                  <span>
+                    <a href=""
+                      ><img
+                        id="mic-logo"
+                        src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+                        alt="google's mic logo" /></a
+                  ></span>
+                </div>
+              </div>
+            </form>
           </div>
-        </form>
-        <nav id="nav-bar-top">
-          <div id="nav-left">
-            <a href="">About</a>
-            <a href="">Store</a>
-          </div>
-          <div id="nav-right">
-            <a href="">Gmail</a>
-            <a href="">Images</a>
+          <nav id="apps-profile-container">
             <a href="" id="apps-nav"
               ><span class="material-icons" id="apps">apps</span></a
             >
-            <a href="" id="sign-in">Sign in</a>
+            <a href="" id="profile">Sign in</a>
+          </nav>
+        </div>
+        <nav id="nav-bar-top">
+          <div id="nav-left">
+            <a href=""><span class="material-icons"> search </span>All</a>
+            <a href=""><span class="material-icons"> article </span>News</a>
+            <a href=""><span class="material-icons"> image </span>Images</a>
+            <a href=""><span class="material-icons"> slideshow </span>Videos</a>
+            <a href=""
+              ><span class="material-icons"> shopping_cart </span>Shopping</a
+            >
+            <div id="dropdown">
+              <a><span class="material-icons"> more_vert </span>More</a>
+              <div id="dropdown-content">
+                <a href=""
+                  ><span class="material-icons"> location_on </span>Maps</a
+                >
+                <a href=""><span class="material-icons"> book </span>Books</a>
+                <a href=""
+                  ><span class="material-icons">airplane_ticket</span>Flights</a
+                >
+                <a href=""
+                  ><span class="material-icons"> account_balance </span
+                  >Finance</a
+                >
+              </div>
+            </div>
+          </div>
+          <div id="nav-right">
+            <a href="">Settings</a>
+            <a href="" id="tools">Tools</a>
           </div>
         </nav>
       </header>
