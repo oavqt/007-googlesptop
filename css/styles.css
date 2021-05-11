@@ -1,5 +1,5 @@
 @import url(nreset.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*
 @media (max-width: 850px) {
   #nav-bar-bottom {
@@ -34,7 +34,7 @@
 }*/
 body {
   /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   display: flex;
@@ -44,6 +44,9 @@ a {
   padding: 0.5em;
   margin: 0.5em 0.8em;
   color: #5f6368;
+}
+h3 {
+  font-weight: normal;
 }
 #page-container {
   width: 100%;
@@ -322,7 +325,7 @@ hr {
 .search-results a,
 h3,
 p {
-  margin: .2em 0;
+  margin: 0.2em 0;
   padding: 0;
 }
 .search-results h3 {
@@ -332,21 +335,21 @@ p {
   display: inline-block;
 }
 
-
 #bottom-space {
   flex: 1;
 }
 #nav-bar-bottom {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
   color: #70757a;
   background-color: #f2f2f2;
-  padding: 0 1.25em;
   flex-wrap: wrap;
 }
 #nav-bar-bottom a {
   color: #70757a;
+  padding: 0.5em 0;
+  margin-left: 0;
 }
 #footer-text {
   font-weight: lighter;
@@ -354,10 +357,19 @@ p {
 #footer-left {
   display: flex;
   min-width: 30%;
-  justify-content: flex-start;
+  margin-left: 180px;
+  margin-top: 1em;
+}
+#footer-left a {
+  margin: 0.5em 0 0 0;
 }
 #footer-right {
   display: flex;
   min-width: 30%;
-  justify-content: flex-end;
+  margin-left: 180px;
+  margin-bottom: 1em;
+}
+#footer-right a {
+  margin: 0;
+  margin-right: 1.6em;
 }
