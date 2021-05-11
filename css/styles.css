@@ -289,21 +289,21 @@ hr {
   font-size: 0.8rem;
   color: #70757a;
 }
-#news-view-all {
+#view-all-bar {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-top: 0.5em;
 }
-#news-view-all hr {
+#view-all-bar hr {
   position: absolute;
   border: 0;
   height: 1px;
   background-color: #dadce0;
   width: 652px;
 }
-#news-view-all .material-icons {
+#view-all-bar .material-icons {
   position: absolute;
   right: 255px;
   color: #1a0dab;
@@ -337,7 +337,7 @@ p {
   line-height: 1.5em;
 }
 .search-results-subtext {
-  margin: .8em 0;
+  margin: 0.8em 0;
 }
 .search-results h3 {
   font-size: 1.2rem;
@@ -379,6 +379,54 @@ p {
 }
 .video-information p {
   text-align: left;
+}
+#related-search {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+#blockchain-expand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+#blockchain-expand p {
+  font-size: 1rem;
+}
+#related-crypto-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 1.2em 0;
+}
+.crypto-img {
+  width: 100px;
+  height: 100px;
+}
+#feedback {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  background-color: white;
+  font-size: 12px;
+}
+#feedback-bar a {
+  margin: 0;
+  padding-right: 0;
+}
+#feedback-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.5em;
+}
+#feedback-bar hr {
+  border: 0;
+  height: 1px;
+  background-color: #dadce0;
+  width: 652px;
 }
 
 #bottom-space {
