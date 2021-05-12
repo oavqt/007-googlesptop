@@ -16,13 +16,16 @@
       <header>
         <div id="logo-search-profile-container">
           <div id="logo-search-container">
-            <div id="google-logo-container">
+            <a
+              href="https://www.google.com/webhp?hl=en"
+              id="google-logo-container"
+            >
               <img
                 src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
                 alt="google's logo"
                 id="google-logo"
               />
-            </div>
+            </a>
             <form action="" id="search-form">
               <div id="search-container">
                 <div id="search-icon">
@@ -49,7 +52,11 @@
             <a href="" id="apps-nav"
               ><span class="material-icons" id="apps">apps</span></a
             >
-            <a href="" id="profile">Sign in</a>
+            <a
+              href="https://accounts.google.com/signin/v2/identifier?hl=en"
+              id="profile"
+              >Sign in</a
+            >
           </nav>
         </div>
         <nav id="nav-bar-top">
@@ -57,23 +64,33 @@
             <a href="" id="nav-search"
               ><span class="material-icons"> search </span>All</a
             >
-            <a href=""><span class="material-icons"> article </span>News</a>
-            <a href=""><span class="material-icons"> image </span>Images</a>
-            <a href=""><span class="material-icons"> slideshow </span>Videos</a>
-            <a href=""
+            <a href="https://www.google.com/search?q=dogecoin&tbm=nws&"
+              ><span class="material-icons"> article </span>News</a
+            >
+            <a href="https://www.google.com/search?q=dogecoin&hl=en&tbm=isch"
+              ><span class="material-icons"> image </span>Images</a
+            >
+            <a href="https://www.google.com/search?tbm=vid&q=dogecoin"
+              ><span class="material-icons"> slideshow </span>Videos</a
+            >
+            <a
+              href="https://www.google.com/search?q=dogecoin&source=lmns&tbm=shop"
               ><span class="material-icons"> shopping_cart </span>Shopping</a
             >
             <div id="dropdown">
               <a href=""><span class="material-icons"> more_vert </span>More</a>
               <div id="dropdown-content">
-                <a href=""
+                <a href="https://www.google.com/maps/search/dogecoin/"
                   ><span class="material-icons"> location_on </span>Maps</a
                 >
-                <a href=""><span class="material-icons"> book </span>Books</a>
-                <a href=""
+                <a
+                  href="https://www.google.com/search?q=dogecoin&source=lmns&tbm=bks"
+                  ><span class="material-icons"> book </span>Books</a
+                >
+                <a href="https://www.google.com/travel/flights?"
                   ><span class="material-icons">airplane_ticket</span>Flights</a
                 >
-                <a href=""
+                <a href="https://www.google.com/finance/"
                   ><span class="material-icons"> account_balance </span
                   >Finance</a
                 >
@@ -95,39 +112,33 @@
             >Top Stories
           </h2>
           <div id="news-cards-container">
-            <div class="news-cards">
+            <a href="https://dogecoin.com/" class="news-cards">
               <img class="news-cards-img" src="images/doge.png" alt="" />
-              <div class="news-cards-content">
-                <h3>dogecoin</h3>
-                <a href=""
-                  >to the
-                  mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon!</a
-                >
-                <p class="news-cards-time">4 hours ago</p>
-              </div>
-            </div>
-            <div class="news-cards">
+              <h3>dogecoin</h3>
+              <p class="news-cards-description">
+                to the
+                mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon!
+              </p>
+              <p class="news-cards-time">4 hours ago</p>
+            </a>
+            <a href="https://dogecoin.com/" class="news-cards">
               <img class="news-cards-img" src="images/doge.png" alt="" />
-              <div class="news-cards-content">
-                <h3>dogecoin</h3>
-                <a href=""
-                  >to the
-                  mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon!</a
-                >
-                <p class="news-cards-time">2 hours ago</p>
-              </div>
-            </div>
-            <div class="news-cards">
+              <h3>dogecoin</h3>
+              <p class="news-cards-description">
+                to the
+                mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon!
+              </p>
+              <p class="news-cards-time">2 hours ago</p>
+            </a>
+            <a href="https://dogecoin.com/" class="news-cards">
               <img class="news-cards-img" src="images/doge.png" alt="" />
-              <div class="news-cards-content">
-                <h3>dogecoin</h3>
-                <a href=""
-                  >to the
-                  mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon!</a
-                >
-                <p class="news-cards-time">0 hours ago</p>
-              </div>
-            </div>
+              <h3>dogecoin</h3>
+              <p class="news-cards-description">
+                to the
+                mooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon!
+              </p>
+              <p class="news-cards-time">0 hours ago</p>
+            </a>
           </div>
           <div id="view-all-bar">
             <hr />
@@ -352,15 +363,16 @@
               </div>
             </a>
           </div>
-          <div id="feedback-bar" style="margin-top: 0;">
-            <hr style="background-color: transparent;" />
+          <div id="feedback-bar" style="margin-top: 0">
+            <hr style="background-color: transparent" />
             <a
               href="https://www.google.com/search?q=dogecoin&tbm=nws&"
-              id="feedback" style="position: relative; top: 12px;"
+              id="feedback"
+              style="position: relative; top: 15px"
               >Feedback</a
             >
           </div>
-          <div id="view-all-bar" style="margin-top: 0;">
+          <div id="view-all-bar" style="margin-top: 0">
             <hr />
             <a
               href="https://www.google.com/search?tbm=vid&q=dogecoin"
@@ -429,7 +441,9 @@
           </div>
           <div id="related-search-container">
             <h2 id="related-search">
-              Related searches<a href="" style="margin: 0;"><span class="material-icons"> more_vert </span></a>
+              Related searches<a href="" style="margin: 0"
+                ><span class="material-icons"> more_vert </span></a
+              >
             </h2>
             <hr />
             <div id="blockchain-expand">
@@ -437,23 +451,38 @@
               <span class="material-icons"> expand_less </span>
             </div>
             <div id="related-crypto-container">
-              <a href="" class="crypto-related-links">
+              <a
+                href="https://www.google.com/search?q=bitcoin"
+                class="crypto-related-links"
+              >
                 <img src="images/bitcoin.png" alt="" class="crypto-img" />
                 <p>Bitcoin</p>
               </a>
-              <a href="" class="crypto-related-links">
+              <a
+                href="https://www.google.com/search?q=bitcoin"
+                class="crypto-related-links"
+              >
                 <img src="images/bitcoin.png" alt="" class="crypto-img" />
                 <p>Bitcoin</p>
               </a>
-              <a href="" class="crypto-related-links">
+              <a
+                href="https://www.google.com/search?q=bitcoin"
+                class="crypto-related-links"
+              >
                 <img src="images/bitcoin.png" alt="" class="crypto-img" />
                 <p>Bitcoin</p>
               </a>
-              <a href="" class="crypto-related-links">
+              <a
+                href="https://www.google.com/search?q=bitcoin"
+                class="crypto-related-links"
+              >
                 <img src="images/bitcoin.png" alt="" class="crypto-img" />
                 <p>Bitcoin</p>
               </a>
-              <a href="" class="crypto-related-links">
+              <a
+                href="https://www.google.com/search?q=bitcoin"
+                class="crypto-related-links"
+              >
                 <img src="images/bitcoin.png" alt="" class="crypto-img" />
                 <p>Bitcoin</p>
               </a>
@@ -486,10 +515,12 @@
               ><span><strong>Unknown</strong></span
               >&nbsp;- Use precise location</a
             >
-            <a href="">&nbsp;- Learn more</a>
+            <a href="https://support.google.com/websearch/answer/179386"
+              >&nbsp;- Learn more</a
+            >
           </div>
           <div id="footer-right">
-            <a href="">Help</a>
+            <a href="https://support.google.com/websearch">Help</a>
             <a href="">Send feedback</a>
             <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
             <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
